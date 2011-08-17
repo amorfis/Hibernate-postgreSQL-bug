@@ -8,5 +8,40 @@
     <artifactId>hibernate-psql-error</artifactId>
     <version>1.0</version>
 
+  <dependencies>
+    <dependency>
+      <groupId>org.hibernate</groupId>
+      <artifactId>hibernate-core</artifactId>
+      <version>3.6.0.Final</version>
+    </dependency>
+    <dependency>
+      <groupId>org.hibernate</groupId>
+      <artifactId>hibernate-entitymanager</artifactId>
+      <version>3.6.0.Final</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.hibernate</groupId>
+      <artifactId>hibernate-testing</artifactId>
+      <version>3.6.0.Final</version>
+      <scope>test</scope>
+    </dependency>
+
+    <!-- Testing -->
+    <dependency>
+      <groupId>org.testng</groupId>
+      <artifactId>testng</artifactId>
+      <version>5.14.6</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>postgresql</groupId>
+      <artifactId>postgresql</artifactId>
+      <version>9.0-801.jdbc4</version>
+      <scope>test</scope>
+    </dependency>
+
+  </dependencies>
     
 </project>
